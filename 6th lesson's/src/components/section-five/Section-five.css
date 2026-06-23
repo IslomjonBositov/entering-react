@@ -1,0 +1,101 @@
+.section-five {
+  width: 100%;
+  height: 640px;
+  background-color: #f1f5f9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 152px;
+  gap: 80px;
+}
+
+.success h5 {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #475569;
+  margin-bottom: 16px;
+}
+
+.urna {
+  font-size: 24px;
+  font-weight: 400;
+  list-style: 160%;
+  margin-bottom: 16px;
+}
+
+.biograpgy {
+  margin-bottom: 48px;
+}
+
+.bigapp {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 110.00000000000001%;
+  color: #0f172a;
+}
+
+@media(max-width: 1024px){
+  .section-five {
+    height: auto;
+    flex-direction: column;
+    padding: 60px 40px;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .section-five .girl {
+    width: 80%;
+  }
+
+  .success h5 {
+    font-size: 16px;
+  }
+
+  .urna {
+    font-size: 20px;
+  }
+
+  .biograpgy {
+    margin-bottom: 32px;
+  }
+
+  .bigapp {
+    font-size: 18px;
+  }
+
+  .success img {
+    display: none;
+  }
+}
+
+@media(max-width: 767px){
+  .section-five {
+    padding: 40px 16px;
+    gap: 24px;
+  }
+
+  .section-five img {
+    justify-content: center;
+    width: 80%;
+  }
+
+  .success h5 {
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+
+  .urna {
+    font-size: 16px;
+  }
+
+  .biograpgy {
+    margin-bottom: 24px;
+    font-size: 14px;
+  }
+
+  .bigapp {
+    font-size: 16px;
+  }
+}

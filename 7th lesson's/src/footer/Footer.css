@@ -1,0 +1,160 @@
+.footer {
+  width: 100%;
+  height: 486px;
+  padding: 0 80px;
+}
+
+.footerCards {
+  width: 100%;
+  height: 414px;
+  border-bottom: 1px solid #e2e8f0;
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+.footerCard {
+  width: 173.3333282470703px;
+  height: 318px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footerCard h5 {
+  width: 100%;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 110.00000000000001%;
+  color: #475569;
+}
+
+.footerCard a {
+  width: 100%;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #475569;
+  line-height: 140%;
+}
+
+.ending {
+  width: 100%;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footerLogo,
+.io {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 110.00000000000001%;
+}
+
+.io {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 110.00000000000001%;
+}
+
+.endingText {
+  font-size: 16px;
+  line-height: 140%;
+  font-weight: 400;
+  color: #475569;
+}
+
+.socialContact {
+  display: flex;
+  gap: 16px;
+}
+
+@media(max-width: 1024px){
+  .footer {
+    height: auto;
+    padding: 0px 40px;
+  }
+
+  .footerCards {
+    height: auto;
+    padding: 48px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 32px;
+  }
+
+  .footerCard {
+    width: calc(50% - 16px);
+    height: auto;
+  }
+
+  .ending {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media(max-width: 768px){
+  .footer {
+    padding: 0 24px;
+  }
+
+  .footerCards {
+    gap: 24px;
+  }
+
+  .footerCard {
+    width: calc(50% - 12px);
+  }
+
+  .footerCard a {
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .ending {
+    height: auto;
+    flex-direction: column;
+    gap: 16px;
+    padding: 20px 0;
+    align-items: flex-start;
+  }
+
+  .socialContact {
+    gap: 12px;
+  }
+
+  .socialContact img {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+@media(max-width: 480px){
+  .footer {
+    padding: 0 16px;
+  }
+
+  .footerCards {
+    gap: 20px;
+  }
+
+  .footerCard {
+    width: 100%;
+    height: auto;
+  }
+
+  .footerLogo {
+    font-size: 18px;
+  }
+
+  .endingText {
+    font-size: 13px;
+  }
+}

@@ -1,0 +1,194 @@
+.section-four {
+  width: 100%;
+  height: 1162.13134765625px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px;
+}
+
+.focus-on {
+  width: 100%;
+  height: 115px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.focus-on h2 {
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 110.00000000000001%;
+  color: #0f172a;
+  margin-bottom: 24px;
+}
+
+.focus-on p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 160%;
+  color: #0f172a;
+}
+
+.bibendum {
+  width: 100%;
+  height: 663.13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.garvida .binen {
+  border-left: 3px solid #2563eb;
+  padding-left: 48px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 110.00000000000001%;
+  margin-bottom: 32px;
+}
+
+.egestas {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 160%;
+  color: #0f172a;
+  border-left: 3px solid #2563eb;
+  padding-left: 48px;
+  margin-bottom: 24px;
+}
+
+.lorem {
+  border-left: 3px solid #cbd5e1;
+  padding-left: 48px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 110.00000000000001%;
+  margin-bottom: 32px;
+}
+
+.eget {
+  border-left: 3px solid #cbd5e1;
+  padding-left: 48px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 110.00000000000001%;
+  margin-bottom: 32px;
+}
+
+.section-four button {
+  font-size: 24px;
+  font-weight: 700;
+  list-style: 24px;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  background-color: #2563eb;
+  padding: 20px 48px;
+  border: none;
+  border-radius: 8px;
+}
+
+@media(max-width: 1024px){
+  .section-four {
+    height: auto;
+    padding: 60px 40px;
+  }
+
+  .focus-on {
+    height: auto;
+    margin-bottom: 48px;
+    text-align: center;
+  }
+
+  .focus-on h2 {
+    font-size: 40px;
+  }
+
+  .focus-on p {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .bibendum {
+    flex-direction: column;
+    height: auto;
+    gap: 40px;
+    margin-bottom: 48px;
+  }
+
+  .bibendum img {
+    width: 100%;
+  }
+
+  .egestas {
+    font-size: 16px;
+    padding-left: 32px;
+  }
+
+  .lorem {
+    font-size: 18px;
+    padding-left: 32px;
+    margin-bottom: 24px;
+  }
+
+  .eget {
+    font-size: 18px;
+    padding-left: 32px;
+    margin-bottom: 24px;
+  }
+
+  .section-four button {
+    font-size: 18px;
+    padding: 16px 36px;
+  }
+}
+
+@media(max-width: 767px){
+  .section-four {
+    padding:  40px 16px;
+  }
+
+  .focus-on h2 {
+    font-size: 28px;
+    margin-bottom: 16px;
+  }
+
+  .focus-on p {
+    font-size: 15px;
+  }
+
+  .bibendum img {
+    width: 100%;
+  }
+
+  .garvida .binen {
+    font-size: 16px;
+    padding-left: 20px;
+    margin-bottom: 16px;
+  }
+
+  .egestas {
+    font-size: 15px;
+    padding-left: 20px;
+    margin-bottom: 16px;
+  }
+
+  .lorem {
+    font-size: 16px;
+    padding-left: 20px;
+    margin-bottom: 16px;
+  }
+
+  .eget {
+    font-size: 16px;
+    padding-left: 20px;
+    margin-bottom: 16px;
+  }
+
+  .section-four button {
+    font-size: 16px;
+    padding: 14px 28px;
+  }
+}
